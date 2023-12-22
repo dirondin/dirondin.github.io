@@ -14,7 +14,6 @@ jobs:
         with:
           repository: dirondin/pet-project-map
           path: './build'
-          token: ${{ secrets.my_pat }}
 
       - name: Copy
         run: cp -r ./build ./tscgame_map
