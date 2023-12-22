@@ -5,8 +5,8 @@ on:
 
 jobs:
   checkout-and-copy:
-    name: test
-    runs-on: [ self-hosted, fast ]
+    name: checkout-and-copy
+    runs-on: ubuntu-linux
 
     steps:
       - name: Check out my other private repo
@@ -15,6 +15,15 @@ jobs:
           repository: dirondin/pet-project-map
           path: './build'
           token: ${{ secrets.my_pat }}
+
+      - name: Copy
+        run: cp -r ./build ./tscgame_map
+
+      - name: Push
+        run: |
+          git add -A
+          git commit -m "Automated report"
+          git push
 
     
       
