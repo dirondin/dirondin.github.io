@@ -1,0 +1,20 @@
+name: Publish TSCGame map
+
+on:
+  workflow_dispatch:
+
+jobs:
+  checkout-and-copy:
+    name: test
+    runs-on: [ self-hosted, fast ]
+
+    steps:
+      - name: Check out my other private repo
+        uses: actions/checkout@master
+        with:
+          repository: dirondin/pet-project-map
+          path: './build'
+          token: ${{ secrets.my_pat }}
+
+    
+      
