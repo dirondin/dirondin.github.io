@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tscgame_map/static/css/main.f855e6bc.css",
+    "main.js": "/tscgame_map/static/js/main.70158b41.js",
+    "static/js/787.d4cfd9ed.chunk.js": "/tscgame_map/static/js/787.d4cfd9ed.chunk.js",
+    "index.html": "/tscgame_map/index.html",
+    "main.f855e6bc.css.map": "/tscgame_map/static/css/main.f855e6bc.css.map",
+    "main.70158b41.js.map": "/tscgame_map/static/js/main.70158b41.js.map",
+    "787.d4cfd9ed.chunk.js.map": "/tscgame_map/static/js/787.d4cfd9ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.70158b41.js"
+  ]
+}
