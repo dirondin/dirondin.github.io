@@ -6,7 +6,7 @@ on:
 jobs:
   checkout-and-copy:
     name: checkout-and-copy
-    runs-on: ubuntu-linux
+    runs-on: ubuntu-latest
 
     steps:
       - name: Check out my other private repo
